@@ -1,0 +1,21 @@
+Varivable:
+
+能够构建一个变量，在计算图的运算过程中，其值会一直保存到程序运行结束，而一般在tensor张量在tensorflow运行过程中只是在计算图中流过
+
+并不会保存下来，因此Varibale主要用来保存tensorflow构建的一些结构中的参数，这样，这些参数才不会随着运算的消失而消失，才能最终得到
+
+一个模型。比如神经网络中的权重和bias等
+
+PlaceHolder：
+
+第一个参数是要保存的数据类型，大多数是tensorflow中的float32数据类型，后面的参数就是要保存的结构，和Varibale不同的是，在session
+
+运行阶段，需要给palceholder提供数据，利用feed_dict的字典结构给placeholder变量喂数据
+
+accuracy.eval()：
+
+f.Tensor.eval(feed_dict=None, session = None)
+
+在一个session里面计算tensor的值，首先执行之前的所有必须的操作来产生这个计算这个tensor需要的输入，然后通过这些输入
+
+产生这个tensor，在激发这个tensor.eval()这个函数之前，tensor的图必须已经投入到session里面，或者一个默认的session是有效的，或者显示指定session
