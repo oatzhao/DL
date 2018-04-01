@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4864a68-574e-4947-8352-e1ee5b8ca96f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALexNet/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALexNet/AlexNet" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ALexNet/AlexNet.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cnn/cnn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cnn/simple_cnn.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Trick/Pyplot.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Trick/Trick" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Trick/Trick.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MNIST/DenoisingAutoEncoder" afterPath="$PROJECT_DIR$/Mnist/DenoisingAutoEncoder" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MNIST/ManistSoftmax.py" afterPath="$PROJECT_DIR$/Mnist/ManistSoftmax.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MNIST/Perceptron" afterPath="$PROJECT_DIR$/Mnist/Perceptron" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MNIST/Perceptron.py" afterPath="$PROJECT_DIR$/Mnist/Perceptron.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MNIST/data/t10k-images-idx3-ubyte" afterPath="$PROJECT_DIR$/Mnist/data/t10k-images-idx3-ubyte" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MNIST/data/t10k-images-idx3-ubyte.gz" afterPath="$PROJECT_DIR$/Mnist/data/t10k-images-idx3-ubyte.gz" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MNIST/data/t10k-labels-idx1-ubyte" afterPath="$PROJECT_DIR$/Mnist/data/t10k-labels-idx1-ubyte" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MNIST/data/t10k-labels-idx1-ubyte.gz" afterPath="$PROJECT_DIR$/Mnist/data/t10k-labels-idx1-ubyte.gz" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MNIST/data/train-images-idx3-ubyte" afterPath="$PROJECT_DIR$/Mnist/data/train-images-idx3-ubyte" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MNIST/data/train-images-idx3-ubyte.gz" afterPath="$PROJECT_DIR$/Mnist/data/train-images-idx3-ubyte.gz" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MNIST/data/train-labels-idx1-ubyte" afterPath="$PROJECT_DIR$/Mnist/data/train-labels-idx1-ubyte" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MNIST/data/train-labels-idx1-ubyte.gz" afterPath="$PROJECT_DIR$/Mnist/data/train-labels-idx1-ubyte.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Word2Vec/text8.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VGGNet/VGGNet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Word2Vec/Word2Vec.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,7 +16,20 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Word2Vec.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Word2Vec/Word2Vec.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="182" column="38" lean-forward="true" selection-start-line="182" selection-start-column="38" selection-end-line="182" selection-end-column="38" />
+              <folding>
+                <element signature="e#24#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -72,12 +68,14 @@
         <option value="$PROJECT_DIR$/Trick/Trick" />
         <option value="$PROJECT_DIR$/ALexNet/AlexNet.py" />
         <option value="$PROJECT_DIR$/ALexNet/AlexNet" />
+        <option value="$PROJECT_DIR$/VGGNet/VGGNet.py" />
+        <option value="$PROJECT_DIR$/Word2Vec/Word2Vec.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="259" />
-    <option name="y" value="24" />
+    <option name="x" value="208" />
+    <option name="y" value="23" />
     <option name="width" value="1181" />
     <option name="height" value="876" />
   </component>
@@ -120,7 +118,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Cnn" />
+              <option name="myItemId" value="Word2Vec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -134,7 +132,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ALexNet" />
+              <option name="myItemId" value="VGGNet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cnn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -149,6 +161,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Word2Vec" />
       <recent name="$PROJECT_DIR$/ALexNet" />
       <recent name="$PROJECT_DIR$/MNIST/data" />
       <recent name="$PROJECT_DIR$/MNIST" />
@@ -167,25 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.AlexNet">
-    <configuration default="false" name="Perceptron" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MNIST" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DL" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MNIST/Perceptron.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Word2Vec">
     <configuration default="false" name="simple_cnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -258,6 +253,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="Word2Vec" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Word2Vec" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DL" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Word2Vec/Word2Vec.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -323,19 +336,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Perceptron" />
-      <item index="1" class="java.lang.String" itemvalue="Python.simple_cnn" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Padding" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Pyplot" />
-      <item index="4" class="java.lang.String" itemvalue="Python.AlexNet" />
+      <item index="0" class="java.lang.String" itemvalue="Python.simple_cnn" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Padding" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Pyplot" />
+      <item index="3" class="java.lang.String" itemvalue="Python.AlexNet" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Word2Vec" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.AlexNet" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Pyplot" />
-        <item index="2" class="java.lang.String" itemvalue="Python.simple_cnn" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Padding" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Perceptron" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Word2Vec" />
+        <item index="1" class="java.lang.String" itemvalue="Python.AlexNet" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Pyplot" />
+        <item index="3" class="java.lang.String" itemvalue="Python.simple_cnn" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Padding" />
       </list>
     </recent_temporary>
   </component>
@@ -353,17 +366,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="259" y="24" width="1181" height="876" extended-state="0" />
+    <frame x="208" y="23" width="1181" height="876" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12906058" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13784021" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6645408" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37117347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49107143" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41576087" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16867469" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2780612" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -387,7 +401,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="30" />
+      <option name="time" value="44" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -397,7 +411,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#24#53#0" expanded="true" />
+            <element signature="e#24#53#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -514,6 +528,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="3786" column="22" lean-forward="false" selection-start-line="3786" selection-start-column="18" selection-end-line="3786" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -546,16 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/simple_cnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
-          <folding>
-            <element signature="e#24#47#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ALexNet/AlexNet">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
@@ -569,7 +574,41 @@
         <state relative-caret-position="-2492">
           <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
           <folding>
-            <element signature="e#24#53#0" expanded="true" />
+            <element signature="e#24#53#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2017.1/python_stubs/160944109/posix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="741" column="4" lean-forward="false" selection-start-line="741" selection-start-column="4" selection-end-line="741" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VGGNet/VGGNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cnn/simple_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Word2Vec/Word2Vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="182" column="38" lean-forward="true" selection-start-line="182" selection-start-column="38" selection-end-line="182" selection-end-column="38" />
+          <folding>
+            <element signature="e#24#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
