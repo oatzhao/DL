@@ -181,6 +181,7 @@ def run_benchmark():
         time_tensorflow_run(sess, pool5, "Fowward")
 
         #Forward-backward测评
+        #output = sum(t ** 2) / 2 L2正则
         objective = tf.nn.l2_loss(pool5)
         grad = tf.gradients(objective, parameters)
         time_tensorflow_run(sess, grad, "Forward-backward")
